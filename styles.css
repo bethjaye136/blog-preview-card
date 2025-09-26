@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@500&display=swap');
+
+:root {
+--yellow: hsl(47, 88%, 63%);
+--white: hsl(0, 0%, 100%);
+--light-gray: hsl(0, 0%, 42%);
+--dark-gray: hsl(0, 0%, 7%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Figtree", sans-serif;
+    
+}
+
+body {
+    font-family: "Figtree", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 1px);
+    background-color: var(--yellow);
+    
+}
+
+p {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--light-gray);
+    padding: 5px;
+    text-align: left;
+    letter-spacing: .5px;
+}
+
+h1 {
+    font-size: 1.5rem;
+    color: var(--dark-gray);
+    font-weight: 800;
+    padding: 5px;
+}
+
+h1:hover {
+    color: var(--yellow);
+}
+
+h2 {
+    font-size: .9rem;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+span {
+    font-size: .9rem;
+    font-weight: 800;
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: var(--yellow);
+    border: 1px solid --yellow;
+    border-radius: .3rem;
+}
+
+h3 {
+    font-size: .80rem;
+    font-weight: 500;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+
+body img {
+    border-radius: .6rem;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.container {
+    padding: 1.25rem;
+    border-radius: 0.625rem;
+    box-shadow: 8px 8px black;
+    margin-bottom: 2rem;
+    width: 350px;
+    align-items: center;
+    text-align: left;
+    border: 1px solid black;
+    background-color: var(--white);
+    
+}
+
+ul img {
+    width: 30px;
+    margin: 5px;
+}
+
+ul {
+    list-style-type: none
+}
+
+.container ul {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.container .author {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
